@@ -10,9 +10,11 @@ This project is an **online bus ticket booking system** that allows users to sea
 3. Save costs on advance ticket reservations.
 4. Expand consumer reach through an online system.
 
+### ERD (Entity-Relationship Diagram)
+
+![ERD](https://github.com/user-attachments/assets/f20516fd-1981-41f3-9841-31cee959c6c3)
+
 ### 🛠️ Technologies Used
 Database Management: phpMyAdmin
 Database Design: DB Designer
-Backend Development: PHP
-Frontend Development: HTML, CSS, JavaScript
 Database: MySQL
