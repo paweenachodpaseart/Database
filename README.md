@@ -15,6 +15,6 @@ This project is an **online bus ticket booking system** that allows users to sea
 ![ERD](https://github.com/user-attachments/assets/f20516fd-1981-41f3-9841-31cee959c6c3)
 
 ### 🛠️ Technologies Used
-Database Management: phpMyAdmin
-Database Design: DB Designer
-Database: MySQL
+- Database Management: phpMyAdmin
+- Database Design: DB Designer
+- Database: MySQL
