@@ -12,7 +12,8 @@ This project is an **online bus ticket booking system** that allows users to sea
 
 ### ERD (Entity-Relationship Diagram)
 
-![ERD](https://github.com/user-attachments/assets/f20516fd-1981-41f3-9841-31cee959c6c3)
+
+![ERD](https://github.com/user-attachments/assets/54b71af4-0177-4519-883b-eb39621271a4)
 
 ### 🛠️ Technologies Used
 - Database Management: phpMyAdmin
