@@ -1,0 +1,225 @@
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100111','ดนุเดช ดีงาม','0985462428','96/2  ซ.สดใส  ต.ยินดี อ.เมือง จ.ชลบุรี  27033','danudet06@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100112','อรินดา   ผิวงาม','0832847365','18 หมู่ 6 ต.ชื่นชม อ.เมือง จ.ชลบุรี  27035','kanarinda140632@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100113','ดานิกา  ธรรมดำรง','0984566162','78 ถ.เจริญอินทร์ อ.ไหมไทย จ.สระแก้ว 15408','danika8956@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100114','คุณากร  ใจชื่น','0984569793','158/4 ซ.อ่อนตัน ต.บ้านแก้ว อ.งามเมือง จ.สมุทรปราการ 32100','kunakorn46@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100115','ภาคิน  งามเนตร','0658923136','46 หมู่ 6 ต.ดีเด่น อ.ปักธง จ.นครราชสีมา 43001','teephakin@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100116','เจนนริน  แก้วยาดา','0642782212','57/7 ถ.นฤเนตร ต.ผาสุข อ.อ่อนน้อม จ.ชลบุรี 27045','janerinpim47@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100117','อัญญา ใจงาม','0889736465','74 หมู่ 11 ซ.ยาดา ต.ทรายทอง อ.การพิเศษ จ.กาญจนบุรี  21630','anyahappy@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100118','แคทรียา  เจริญดำรง','0987456162','87/6 ถ.สมงาม ต.เดือนเพ็ญ อ.สองห้อง จ.สระบุรี 18123','katriyalove32@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100119','ณภัทร  ใจประเสริฐ','0627894515','62/6 ถ.ลีลา ต.ลานนา อ.หงษ์มังกร จ.น่าน 64123','narhatbest46@gmail.com');
+
+INSERT INTO Admin(a_code,a_name,a_tel,a_address,a_mail)
+VALUE('100120','ณัชชา โชคช่วย','0645232889','32 หมู่ 4 ต.เขาบาน จ.น้อยดอก อ.เจริญ จ.ชลบุรี 27450','nutchahihi1546@gmail.com');
+
+----
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400101','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400102','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400103','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400104','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400105','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400106','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400107','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400108','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400109','32');
+
+INSERT INTO Bus(b_num,b_amount)
+VALUE('400110','32');
+
+----
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124001','19:00:00','06:30:00','BANGKOK - CHIANGMAI','400110');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124002','05:30:00','15:30:00','BANGKOK - UBONRATCHATHANI','400102');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124003','19:15:00','05:00:00','BANGKOK - ROIET','400101');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124004','18:30:00','02:30:00','BANGKOK - KHONKAEN','400108');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124005','06:00:00','18:00:00','CHIANGRAI - KHONKAEN','400101');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124006','06:30:00','17:30:00','RAYONG - UBONRATCHATHANI','400110');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124007','08:30:00','13:00:00','KHONKAEN - UBONRATCHATHANI','400110');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124008','09:30:00','15:30:00','NAKHONRATCHASRIMA - UBONRATCHATHANI','400104');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124009','09:30:00','23:50:00','BANGKOK - PHUKET','400107');
+
+INSERT INTO Busrevs(br_code,br0_time,br1_time,br_route,b_num)
+VALUE('124010','18:00:00','21:30:00','BANGKOK - RAYONG','400101');
+
+----
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000111','อรวรรณ ธรรมดา','0642345449','orawan2000@gmail.com','1000111');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000112','สมจิตร พันน้อย','0632462001','somchit11@gmail.com','1000114');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000113','จิตรกร ไชยธรรม','0875545449','jittakorn.jj@gmail.com','1000113');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000114','มาลี ตาพรมมา','0962342289','maleelee@gmail.com','1000114');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000115','นิกร อัมพรสว่าง','0983212144','nikorn1996@gmail.com','1000115');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000116','สุภาพร พอใจ','0878758899','supaporn07@gmail.com','1000111');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000117','ทักษิณ คงเจริญ','0632044411','thaksin1014@gmail.com','1000111');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000118','ธนพล โมหา','0902235670','thanapon.m@gmail.com','1000118');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000119','ปกรณ์ กลิ่นทอง','0647894321','pakorn2540@gmail.com','1000118');
+
+INSERT INTO Customer(cus_code,cus_name,cus_tel,cus_mail,a_code)
+VALUE('70000120','อารยา สุภา','0982833324','araya.sp@gmail.com','1000120');
+
+----
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000665','ทวยเทพ เทพสร้าง','0649832123','78/8 หมู่ 11 ต.ปัญญา อ.สวนกุหลาบ จ.นนทบุรี 64233','thuaithep23@gmail.com','100113');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000656','ปภาวิน  พาดี','0648925756','65 หมู่ 6 ต.หนองใหญ่ อ.องค์ลักษณ์ จ.สระบุรี 18752','paphawinkorn@gmail.com','100119');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000657','ธานี อุดร','0625987471','47 ถ.จินตนา ต.ทองแท้ อ.ฟองน้ำ จ.ระยอง 41203','thanee230646@gmail.com','100120');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000658','อธิกร เดชาชาติ','0966532128','32/6 ถ.น้ำใจ ต.นานนอน อ.พระพุทธบาท จ.กาญจนบุรี 54011','athikon55@gmail.com','100113');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000659','อนุวิท ไชยศิริ','0845612882','61/2 หมู่ 9 ต.ใจสะอาด อ.เงาสวย จ.นครราชสีมา 32014','anuwit3664@gmail.com','100119');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000660','คมกฤช เดชพล','0966533249','11/2 หมู่ 2 ต.ลานไทย อ.หัวกะปิ จ.สงขลา 73264','khomkrit@gmail.com','100115');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000661','อาทิตย์ ธารา','0987411334','98/7 ซ.มณีรัตน ต.ผ่านทาง อ.หนีหาย จ.เพชรบูรณ์ 15236','athit240922@gmail.com','100111');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000662','ชีตาร์ วายุ','0887322144','36 หมู่ 9 ซ.ใหญ่ยิ่ง ต.ยานนาวา อ.คงความดี จ.เลย 70123','chitapong231219@gmail.com','100111');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000663','คูเปอร์ ทิวเขา','0895643132','79/4 ถ.บ่อใหญ่ ต.ลาฟ้าคราม อ.ม่วงเขียว จ.นนทบุรี 64397','khupoe640511@gmail.com','100114');
+
+INSERT INTO Employee(em_code,em_name,em_tel,em_address,em_mail,a_code)
+VALUE('48000664','แทนไท โชติดำรง','0956324144',' 21/4 ซ.สดใส  ต.ยินดี อ.เมือง จ.ชลบุรี  27033','thaenthai66@gmail.com','100119');
+
+----
+INSERT INTO Station(s_code,s_province)
+VALUE('101','BANGKOK');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('102','SARABURI');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('103','CHIANGMAI');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('104','CHIANGRAI');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('105','KHONKAEN');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('106','UBONRATCHATHANI');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('107','NAKHONRATCHASIMA');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('108','BURIRAM');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('109','SISAKET');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('110','ROIET');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('111','RAYONG');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('112','PHUKET');
+
+INSERT INTO Station(s_code,s_province)
+VALUE('113','CHUMPHON');
+
+----
+----
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001234','20221209','06:00:00','18:00:00','1D','10%','620.00','558.00','124005','48000655','70000113','104','105');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001235','20221209','06:30:00','16:30:00','2A','10%','520.00','468.00','124006','48000661','70000117','111','109');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001236','20221209','08:30:00','13:00:00','2C','10%','600.00','540.00','124007','48000661','70000112','105','106');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001237','20221210','09:30:00','15:30:00','8A','10%','820.00','738.00','124008','48000664','70000119','107','106');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001238','20221210','09:30:00','22:30:00','6C','10%','850.00','765.00','124009','48000664','70000120','101','103');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001239','20221211','18:00:00','21:30:00','4D','10%','640.00','576.00','124010','48000660','70000111','101','111');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001240','20221211','19:00:00','06:30:00','6B','10%','620.00','558.00','124001','48000662','70000118','101','103');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001241','20221210','05:30:00','14:00:00','2B','10%','800.00','720.00','124002','48000661','70000116','101','108');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001242','20221213','19:15:00','05:00:00','7A','10%','670.00','603.00','124003','48000655','70000115','102','110');
+
+INSERT INTO Ticket(t_codetk,t_date,t0_time,t1_time,t_seat,t_disc,t_price,t_pricedisc,br_code,cus_code,em_code,s0_code,s1_code)
+VALUE('10001243','20221212','18:30:00','02:30:00','5C','10%','620.00','558.00','124004','48000659','70000114','101','105');
