@@ -18,4 +18,4 @@ This project is an **online bus ticket booking system** that allows users to sea
 ### 🛠️ Technologies Used
 - Database Management: phpMyAdmin
 - Database Design: DB Designer
-- Database: MySQL
+- Database: MySQL (SQL)
